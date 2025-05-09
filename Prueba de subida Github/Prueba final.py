@@ -9,14 +9,14 @@ def generar_nombre_usuario():
     return f"Usuario_{random.randint(100, 999)}"
 
 def mostrar_historial(historial):
-    print("\n📜 Historial de mensajes:")
+    print("\n📜 Historial de mensajes del Puto:")
     for mensaje in historial:
         print(mensaje)
     print()
 
 def iniciar_chat():
     print("=== Chat Local Simulado ===")
-    nombre = input("Ingresa tu nombre (ENTER para uno automático): ").strip()
+    nombre = input("Ingresa tu nombre puerco (ENTER para uno automático): ").strip()
     if not nombre:
         nombre = generar_nombre_usuario()
     
